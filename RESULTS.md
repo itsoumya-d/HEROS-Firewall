@@ -20,7 +20,7 @@ Command: `npm run redteam`
 | Benign cases | 200 |
 | Missed adversarial (FNR) | 0 / 1,000 |
 | False positives (FPR) | 0 / 200 |
-| p99 policy latency | 0.296 ms |
+| p99 policy latency | 0.103 ms |
 | Whole suite wall time | ~24 ms |
 
 The p99 is the policy-engine evaluation time. It does not include process

@@ -62,7 +62,7 @@ are bounded.
 
 | Adversarial | Benign | FNR | FPR | p99 policy latency |
 |---:|---:|---:|---:|---:|
-| 1,000 | 200 | 0.0000 | 0.0000 | 0.296 ms |
+| 1,000 | 200 | 0.0000 | 0.0000 | 0.103 ms |
 
 This is policy-engine latency; downstream MCP/network time is not included. The
 sub-5ms target is met for the policy layer, not proven end-to-end.
