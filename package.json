@@ -1,0 +1,21 @@
+{
+  "name": "@heros/firewall",
+  "version": "0.2.0",
+  "description": "Deterministic MCP security proxy with OWASP ASI policies, approval gates, and Merkle receipts.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "heros-firewall": "./bin/heros-firewall.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "redteam": "node scripts/redteam.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

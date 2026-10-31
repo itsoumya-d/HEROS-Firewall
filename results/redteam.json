@@ -1,0 +1,11 @@
+{
+  "adversarial": 1000,
+  "benign": 200,
+  "missed_adversarial": 0,
+  "false_positives": 0,
+  "fnr": 0,
+  "fpr": 0,
+  "p99_ms": 0.1032,
+  "total_ms": 11.77,
+  "note": "Policy-engine latency; no downstream MCP/network time."
+}
